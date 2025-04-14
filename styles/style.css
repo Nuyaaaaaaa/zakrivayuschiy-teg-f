@@ -71,12 +71,12 @@
 }
 
 .card__title {
-  padding: 5px 10px;
+  padding: 3px 10px;
   border-block-end: var(--border-main);
   background-color: var(--color-white);
   font-variation-settings: "wght" var(--font-weight-secondary);
   font-size: inherit;
-  line-height: 25px;
+  line-height: 1;
 }
 
 .card__image-block {
@@ -297,6 +297,8 @@
   .popup[open] {
     padding: 30px 42px;
   }
+
+  
 }
 
 @supports (-webkit-text-stroke: 1px var(--color-white)) or
